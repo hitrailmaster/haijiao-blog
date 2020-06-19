@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>海角论坛</title>
+  <meta name="description" content="海角论坛">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+    <div id="app"></div>
+    <!-- <div class="frame_left">
+        <iframe src="https://www.bilibili.com/" 
+        name="iframe_left" 
+        frameborder="0" 
+        class="frame" 
+        scrolling="no"></iframe>
+        <button class="frame-btn-left" onclick="closeFrame('frame_left')">关闭</button>
+    </div>
+    <div id="app"></div>
+    <div class="frame_right">
+        <iframe src="https://www.bilibili.com/" 
+        name="iframe_right" 
+        frameborder="0" 
+        class="frame" 
+        scrolling="no"></iframe>
+        <button class="frame-btn-right" onclick="closeFrame('frame_right')">关闭</button>
+    </div> -->
+    <script type="text/javascript">
+        function closeFrame(name) {
+            document.getElementsByClassName(name)[0].style.display = 'none'
+        }
+    </script>
+  <style>
+   .frame {
+       width: 80px;
+       height: 200px;
+       position: relative;
+   }
+   .frame_left {
+        position: absolute;
+        top: 150px;
+        left: 0;
+   }
+   .frame_right {
+        position: absolute;
+        top: 150px;
+        right: 0;
+   }
+   .frame-btn-left {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+   }
+   .frame-btn-right {
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       width: 100%;
+   }
+  </style>
+</body>
+
+</html>

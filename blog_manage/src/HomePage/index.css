@@ -1,0 +1,25 @@
+.layout {
+    height: 100%;
+    width: 100%;
+}
+.content {
+    height: 70%;
+}
+.ant-menu {
+    font-size: 24px;
+    padding: 5%;
+    margin-top: 200px;
+}
+.ant-layout-header {
+    background: #ee6e73;
+    font-size: 30px;
+    font-weight: 400;
+}
+.user-info {
+    float: right;
+    font-size: 18px;
+}
+.user-info span {
+    /* font-size: 18px; */
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+.table {
+    margin-top: 100px;
+    width: 70%;
+    margin: 0 auto;
+}
+.search-bar .ant-input {
+    width: 300px
+}
+.search-bar {
+    padding: 50px;
+}
+.search {
+    margin-left: 20px;
+}
+button {
+    margin-right: 30px;
+}

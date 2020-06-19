@@ -1,0 +1,71 @@
+
+.ant-card-actions {
+    background: inherit;
+    border-top: none;
+    margin-right: 10px;
+}
+.ant-card-body {
+    padding: 10px;
+}
+.ant-card-head-title {
+    padding: 4px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+.ant-card-extra {
+    padding: 4px 0;
+}
+/* .anticon-user {
+    font-size: 24px!important;
+} */
+.ant-card-head {
+    border-bottom: none;
+    padding-left: 10px;
+}
+.ant-menu-item-disabled {
+    cursor: auto;
+}
+.ant-menu-item .anticon {
+    margin-right: 0!important;
+}
+.ant-badge-count {
+    top: -4px;
+    right: -6px;
+}
+.ant-card-actions > li {
+    margin-bottom: 0;
+}
+.ant-upload {
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 50%!important;
+    margin: 0!important;
+    padding: 0!important;
+    display: block!important;
+    position: relative;
+}
+.code {
+    color: red;
+    display: block;
+    word-wrap:break-word;
+    overflow: unset;
+    width: 100%
+    /* white-space:unset; */
+}
+.post-content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* width: calc(1000vw - 500px); */
+    width: 800px;
+}
+header {
+    margin-bottom: 20px;
+}
+header span {
+    font-size: 18px;
+}
+header .before-font {
+    background: red;
+    color: red;
+}
