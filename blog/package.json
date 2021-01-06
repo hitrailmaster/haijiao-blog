@@ -19,7 +19,7 @@
     "@vue/cli-plugin-babel": "^3.0.0",
     "@vue/cli-service": "^3.0.0",
     "ant-design-vue": "^1.6.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "css-loader": "^1.0.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.17",
