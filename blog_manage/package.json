@@ -102,7 +102,7 @@
     "@types/react-transition-group": "^4.4.0",
     "@types/styled-components": "^5.1.0",
     "http-proxy-middleware": "^1.0.4",
-    "qs": "^6.9.4"
+    "qs": "^6.9.7"
   },
   "jest": {
     "roots": [
