@@ -16,12 +16,12 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0",
-    "@vue/cli-service": "^3.0.0",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-service": "^5.0.8",
     "ant-design-vue": "^1.6.2",
     "axios": "^0.18.0",
-    "css-loader": "^1.0.0",
-    "sass-loader": "^7.0.1",
+    "css-loader": "^6.7.3",
+    "sass-loader": "^13.2.0",
     "vue-template-compiler": "^2.5.17",
     "vue2-animate": "^2.0.0"
   },
